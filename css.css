@@ -53,7 +53,7 @@ z-index: 10;
 .second .row h1{
     text-transform: capitalize;
 }
-.second .row .col-md-5{
+.second .row .col{
 display: flex;
 justify-content: center;
 flex-direction: column;
@@ -71,8 +71,14 @@ flex-direction: column;
 }
 .display-1{
     font-size: 160px;
-        font-weight: 1000;
+    font-weight: 1000;
 }
+@media (max-width:1000px) {
+    .display-1{
+        font-size: 80px;
+    }
+}
+
 .third {
     height: 650px;
 }
@@ -231,10 +237,11 @@ margin: 10px 0px;
     height: 60PX;
     background-color: black;
     font-size: 20px;
+    margin: 0;
 }
 .footer div{
     color: #FFF;
     position: absolute;
     top: 10%;
-    left:45%;
+    
 }
