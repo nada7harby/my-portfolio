@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    transition: 2s;
+}
+a:hover{
+    text-decoration: none;
+}
+.first{
+    background-color: #2B65EC	;
+    display: flex;
+justify-content: space-between;
+position: fixed;
+width: 100%;
+z-index: 10;
+}
+.first span{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 0 15px ;
+    color: #fff;
+}
+.first ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    padding: 0 20px;
+}
+.second{
+    background-color: #e6eef7	;
+    padding: 30px 0px 80px 0px;
+    
+
+}
+
+.second .row{
+    box-shadow: 5px 5px 10px 10px;
+    border-radius: 30px;
+    background-color: #fff;
+    margin-top: 40px;
+   
+}
+.second .row .img-fluid{
+    height: 100%;
+    border-top-left-radius:30px ;
+   border-bottom-left-radius:30px ;
+   width: 30%;
+}
+.second .row h1{
+    text-transform: capitalize;
+}
+.second .row .col-md-5{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.second .row h4{
+    margin: 0px 15px;
+    text-transform: capitalize;
+    padding: 0px 15px;
+}
+.second .row p{
+    padding:30px  15px;
+    margin: 0px 15px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.display-1{
+    font-size: 160px;
+        font-weight: 1000;
+}
+.third {
+    height: 650px;
+}
+.third img{
+    height: 90%;
+   border-radius: 30px;
+   width: 30%;
+}
+.third .card{
+    position: relative;
+    top: 79px;
+    background-color: #cfd8dc;
+
+}
+.third h3{
+    display: inline-block;
+    margin: 15px;
+    transition: .5s;
+}
+.third h3:hover{
+    font-size: 35px;
+}
+.third ul{
+    list-style: none;
+
+}
+#about{
+    padding-bottom: 94px;
+}
+.about p{
+    padding: 10px 40px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.third .row p{
+    font-size: 20px;
+    padding: 15px 45px;
+}
+.fourth{
+    background-color: #e6eef7 ;
+    padding: 34px 0px 57px 0px;
+}
+.progress {
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  .progress .progress-bar {
+
+    border-radius: 10px;
+    transition: 2s;
+  }
+.facts{
+    margin: 10px 40px 28px 40px;
+    padding: 20px 0px 40px 0px;
+
+}
+.facts h1{
+    padding: 20px 0px;
+    font-size: 55px
+}
+.facts p{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.facts .row{
+    display: flex;
+    justify-content: space-around;
+}
+.fifth{
+    background-color: #e6eef7 ;
+    padding: 34px 0px 57px 0px;
+}
+.fifth .card{
+    border: none;
+    text-align: center;
+    text-transform: capitalize;
+}
+.fifth .card i{
+    font-size: 80px;
+    text-align: center;
+    padding: 10px 0px;
+    color: #546e7a;
+}
+.fifth .col-md-4{
+    margin-top: 20px;
+}
+span{
+    cursor: pointer;
+}
+.box{
+    height: 250px;
+    transition: 2S;
+    overflow: hidden;
+    position: relative;
+  }
+  .box .imagebox{
+    height: 100%;
+  }
+  .box .imagebox img{
+    height: 100%;
+    width: 100%;
+    transition: 2S;
+  }
+  .box:hover .imagebox img{
+    transform: scale(1.2) rotate(10deg);
+  }
+  .box .share{
+    position: absolute;
+    bottom: -45px;
+    background-color:#144b8080;
+  transition: 1s;
+    width: 100%;
+    text-align: center;
+  }
+  .box:hover .share{
+   bottom: 0px;
+  }
+  .box .share a{
+    text-decoration: none;
+  }
+  .box .share i{
+    color:#dee2e6;
+    font-size: 30PX ;
+    text-align: center;
+    padding: 7px 0px;
+  }
+  .sixth p{
+      font-size: 24px;
+      
+  }
+  .sixth .row .col-md-4{
+margin: 10px 0px;
+  }
+
+  .seventh{
+    background-color: #e6eef7;
+    margin-top:20px ;
+    padding: 20px 0px 25px 0px; 
+    
+  }
+
+  .seventh form{
+      margin-top:20px;
+      padding: 20px 25px;
+      transition: .5s;
+      border-radius: 10px;
+  }
+  .seventh form:hover{
+      box-shadow: 5px 5px 5px 5px;
+  }
+  .footer{
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    height: 60PX;
+    background-color: black;
+    font-size: 20px;
+}
+.footer div{
+    color: #FFF;
+    position: absolute;
+    top: 10%;
+    left:45%;
+}
