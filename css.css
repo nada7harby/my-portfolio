@@ -83,7 +83,8 @@ a:hover{
     height: 100%;
     border-top-left-radius:30px ;
    border-bottom-left-radius:30px ;
-   width: 50%;
+   /* width: 50%; */
+   box-sizing: border-box;
 }
 .second .row h1{
     text-transform: capitalize;
@@ -177,7 +178,7 @@ flex-direction: column;
 }
 .facts h1{
     padding: 20px 0px;
-    font-size: 55px
+    /* font-size: 55px */
 }
 .facts p{
     font-size: 20px;
@@ -197,7 +198,7 @@ flex-direction: column;
     text-transform: capitalize;
 }
 .fifth .card i{
-    font-size: 80px;
+    font-size: 55px;
     text-align: center;
     padding: 10px 0px;
     color: #546e7a;
@@ -270,17 +271,17 @@ margin: 10px 0px;
       box-shadow: 5px 5px 5px 5px;
   }
   .footer{
-    padding: 20px;
-    position: relative;
+    padding: 50px;
+    /* position: relative; */
     width: 100%;
-    height: 60PX;
+    /* height: 60PX; */
     background-color: black;
     font-size: 20px;
     margin: 0;
 }
 .footer div{
     color: #FFF;
-    position: absolute;
-    top: 10%;
+    /* position: absolute;
+    top: 10%; */
     
 }
