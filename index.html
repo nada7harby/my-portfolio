@@ -13,16 +13,29 @@
 
   <body>
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ header start @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="first">
+    <div class="topnav" id="myTopnav">
       <span>nada harby</span>
-      <ul class="btn-group m-0">
-        <li><a href="#home" class="btn" style="color: #fff;font-size: 20px;">Home </a></li>
-        <li><a href="#about" class="btn" style="color: #fff;font-size: 20px;">About </a></li>
-        <li><a href="#skills" class="btn" style="color: #fff;font-size: 20px;">Skills </a></li>
-        <li><a href="#servise" class="btn" style="color: #fff;font-size: 20px;">Service </a></li>
-        <li><a href="#contact" class="btn" style="color: #fff;font-size: 20px; ">Contact </a> </li>
-      </ul>
+      <div style="float: right">
+        <a href="#home">Home</a>
+        <a href="#srevers">servier</a>
+        <a href="#comunity">comunity</a>
+        <a href="#about">About</a>
+        <a href="http://nada410.42web.io/contact.php">contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ header end @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Home start @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 
